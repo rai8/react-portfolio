@@ -1,0 +1,82 @@
+.landing-grid {
+  background: #355c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #c06c84,
+    #6c5b7b,
+    #355c7d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #c06c84,
+    #6c5b7b,
+    #355c7d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+.img-container {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+  border-radius: 60%;
+}
+.banner-text {
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 8px;
+  width: 70%;
+  margin: auto;
+}
+.banner-text h1 {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size: 36px;
+  padding: 10px;
+}
+.banner-text hr {
+  border-top: 5px dotted #fff;
+  width: inherit;
+  margin: auto;
+}
+.banner-text p {
+  padding: 5px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  width: inherit;
+  margin: auto;
+}
+.social-links {
+  justify-content: space-between;
+  margin: auto;
+  width: 50%;
+  display: flex;
+}
+.social-links i {
+  font-size: 38px;
+  color: #fff;
+  padding: 8px;
+}
+@media only screen and (min-device-width: 360px) {
+  .landing-grid {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+  }
+  .banner-text {
+    width: 80%;
+  }
+}
